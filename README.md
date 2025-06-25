@@ -2,6 +2,19 @@
 
 This project analyzes Linux system logs to detect failed login attempts. It helps identify brute-force attacks or unauthorized access attempts by scanning `/var/log/auth.log`.
 
+## 🎯 Project Motivation
+
+Cyber attackers often use automated tools to brute-force SSH logins. Detecting such attempts early helps defenders:
+- Block attacker IPs
+- Alert administrators
+- Harden access controls
+
+This script was built to:
+- Simulate real-world log analysis
+- Help SOC analysts and VAPT testers practice log-based threat detection
+
+---
+
 ## 🚀 Features
 - Parses system authentication logs
 - Detects failed login attempts
@@ -21,3 +34,4 @@ sudo python3 detect_failed_logins.py
 Suspicious IPs with failed login attempts:
 192.168.1.100 — 7 failed attempts
 10.0.2.5 — 3 failed attempts
+---
