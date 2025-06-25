@@ -10,11 +10,6 @@ This project analyzes Linux system logs to detect failed login attempts. It help
 
 ## 📂 Log File Format Example
 Jun 25 08:34:12 ubuntu sshd[12345]: Failed password for invalid user admin from 192.168.1.100 port 54422 ssh2
-
-markdown
-Copy
-Edit
-
 ## 🛠 How to Run
 
 ### 🐍 Using Python (Linux system):
@@ -109,5 +104,14 @@ def parse_log():
     else:
         print("✅ No failed login attempts detected.")
 
-if __name__ == "__main__":
-    parse_log()
+
+
+
+
+
+
+
+
+
+
+
